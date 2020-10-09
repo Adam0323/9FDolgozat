@@ -1,0 +1,184 @@
+C:\>cd Horváth Ádám
+
+C:\Horváth Ádám>
+C:\Horváth Ádám>git clone https://github.com/Adam0323/9FDolgozat.git
+fatal: destination path '9FDolgozat' already exists and is not an empty directory.
+
+C:\Horváth Ádám>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9E4D-8B3B
+
+ Directory of C:\Horváth Ádám
+
+2020.10.09.  13:06    <DIR>          .
+2020.10.09.  13:06    <DIR>          ..
+2020.10.09.  13:00    <DIR>          9FDolgozat
+2020.09.25.  13:21    <DIR>          9fteszt2
+2020.10.09.  13:06                33 utasítások.txt
+               1 File(s)             33 bytes
+               4 Dir(s)  368 691 261 440 bytes free
+
+C:\Horváth Ádám>cd ..
+
+C:\>cd Horváth Ádám
+
+C:\Horváth Ádám>git init
+Initialized empty Git repository in C:/Horváth Ádám/.git/
+
+C:\Horváth Ádám>git init "9f"
+Initialized empty Git repository in C:/Horváth Ádám/9f/.git/
+
+C:\Horváth Ádám>cd 9f
+
+C:\Horváth Ádám\9f>git config -global miklos.peter@outlook.com
+error: did you mean `--global` (with two dashes)?
+
+C:\Horváth Ádám\9f>git config --global miklos.peter@outlook.com
+
+C:\Horváth Ádám\9f>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Horváth Ádám\9f>git config --global adamusz0323@gmail.com
+error: invalid key: adamusz0323@gmail.com
+
+C:\Horváth Ádám\9f>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9E4D-8B3B
+
+ Directory of C:\Horváth Ádám\9f
+
+2020.10.09.  13:13    <DIR>          .
+2020.10.09.  13:13    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  368 691 904 512 bytes free
+
+C:\Horváth Ádám\9f>git config --global.email adamusz0323@gmail.com
+error: unknown option `global.email'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+C:\Horváth Ádám\9f>git config --global user.email adamusz0323@gmail.com
+
+C:\Horváth Ádám\9f>git config --global user.name Adam0323
+
+C:\Horváth Ádám\9f>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Horváth Ádám\9f>git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Horváth Ádám\9f>git commit -m "ádám"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Horváth Ádám\9f>git add utasítások.txt
+fatal: pathspec 'utasítások.txt' did not match any files
+
+C:\Horváth Ádám\9f>git add utasítások
+fatal: pathspec 'utasítások' did not match any files
+
+C:\Horváth Ádám\9f>cd
+C:\Horváth Ádám\9f
+
+C:\Horváth Ádám\9f>cd/
+
+C:\>cd Horváth Ádám
+
+C:\Horváth Ádám>git add utasítások.txt
+
+C:\Horváth Ádám>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "utas\303\255t\303\241sok.txt"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        9FDolgozat/
+        9f/
+        9fteszt2/
+
+
+C:\Horváth Ádám>git commit -m "Ádám"
+[master (root-commit) f10d486] Ádám
+ 1 file changed, 11 insertions(+)
+ create mode 100644 "utas\303\255t\303\241sok.txt"
+
+C:\Horváth Ádám>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Horváth Ádám>git remote add origin https://github.com/Adam0323/9FDolgozat.git
+
+C:\Horváth Ádám>git push origin master
+Username for 'https://github.com': Adam0323
+Password for 'https://Adam0323@github.com':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 119.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Adam0323/9FDolgozat.git
+ * [new branch]      master -> master
+
+C:\Horváth Ádám>
