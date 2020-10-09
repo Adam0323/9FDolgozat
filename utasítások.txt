@@ -1,5 +1,7 @@
+git status
+git diff
+git reset
 git pull
-
 
  
 
@@ -8,4 +10,4 @@ git pull
 
 
 
-xd
+
