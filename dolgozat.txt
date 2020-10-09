@@ -1,6 +1,6 @@
+
 C:\>cd Horváth Ádám
 
-C:\Horváth Ádám>
 C:\Horváth Ádám>git clone https://github.com/Adam0323/9FDolgozat.git
 fatal: destination path '9FDolgozat' already exists and is not an empty directory.
 
